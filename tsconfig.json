@@ -16,6 +16,14 @@
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
+    "paths": {
+      "layout": [
+        "dist/layout"
+      ],
+      "signing-keycloak": [
+        "dist/signing-keycloak"
+      ]
+    },
     "target": "ES2022",
     "module": "ES2022",
     "useDefineForClassFields": false,
